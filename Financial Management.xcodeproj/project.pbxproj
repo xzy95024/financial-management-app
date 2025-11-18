@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		793FCD832ECD041A00D5B562 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD822ECD041A00D5B562 /* FirebaseAnalytics */; };
+		793FCD852ECD041A00D5B562 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD842ECD041A00D5B562 /* FirebaseAuth */; };
+		793FCD872ECD041A00D5B562 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD862ECD041A00D5B562 /* FirebaseCore */; };
+		793FCD892ECD041A00D5B562 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD882ECD041A00D5B562 /* FirebaseDatabase */; };
+		793FCD8B2ECD041A00D5B562 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD8A2ECD041A00D5B562 /* FirebaseFirestore */; };
+		793FCD8D2ECD041A00D5B562 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD8C2ECD041A00D5B562 /* FirebaseStorage */; };
+		793FCD8F2ECD041A00D5B562 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD8E2ECD041A00D5B562 /* FirebaseStorageCombine-Community */; };
+		793FCDC82ECD04B800D5B562 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCDC72ECD04B800D5B562 /* DGCharts */; };
+		793FCDCA2ECD04B800D5B562 /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCDC92ECD04B800D5B562 /* DGChartsDynamic */; };
+		793FCDCD2ECD056C00D5B562 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCDCC2ECD056C00D5B562 /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79A7D61E2ECCD74F0036062D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A7D5FF2ECCD74D0036062D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A7D6062ECCD74D0036062D;
+			remoteInfo = "Financial Management";
+		};
+		79A7D6282ECCD74F0036062D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A7D5FF2ECCD74D0036062D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A7D6062ECCD74D0036062D;
+			remoteInfo = "Financial Management";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79A7D6072ECCD74D0036062D /* Financial Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Financial Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A7D61D2ECCD74F0036062D /* Financial ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A7D6272ECCD74F0036062D /* Financial ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		79A7D6092ECCD74D0036062D /* Financial Management */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Financial Management";
+			sourceTree = "<group>";
+		};
+		79A7D6202ECCD74F0036062D /* Financial ManagementTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Financial ManagementTests";
+			sourceTree = "<group>";
+		};
+		79A7D62A2ECCD74F0036062D /* Financial ManagementUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Financial ManagementUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A7D6042ECCD74D0036062D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793FCDC82ECD04B800D5B562 /* DGCharts in Frameworks */,
+				793FCD832ECD041A00D5B562 /* FirebaseAnalytics in Frameworks */,
+				793FCD8F2ECD041A00D5B562 /* FirebaseStorageCombine-Community in Frameworks */,
+				793FCD872ECD041A00D5B562 /* FirebaseCore in Frameworks */,
+				793FCD892ECD041A00D5B562 /* FirebaseDatabase in Frameworks */,
+				793FCDCD2ECD056C00D5B562 /* IQKeyboardManagerSwift in Frameworks */,
+				793FCD8B2ECD041A00D5B562 /* FirebaseFirestore in Frameworks */,
+				793FCD852ECD041A00D5B562 /* FirebaseAuth in Frameworks */,
+				793FCDCA2ECD04B800D5B562 /* DGChartsDynamic in Frameworks */,
+				793FCD8D2ECD041A00D5B562 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A7D61A2ECCD74F0036062D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A7D6242ECCD74F0036062D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A7D5FE2ECCD74D0036062D = {
+			isa = PBXGroup;
+			children = (
+				79A7D6092ECCD74D0036062D /* Financial Management */,
+				79A7D6202ECCD74F0036062D /* Financial ManagementTests */,
+				79A7D62A2ECCD74F0036062D /* Financial ManagementUITests */,
+				79A7D6082ECCD74D0036062D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A7D6082ECCD74D0036062D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A7D6072ECCD74D0036062D /* Financial Management.app */,
+				79A7D61D2ECCD74F0036062D /* Financial ManagementTests.xctest */,
+				79A7D6272ECCD74F0036062D /* Financial ManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A7D6062ECCD74D0036062D /* Financial Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A7D6302ECCD74F0036062D /* Build configuration list for PBXNativeTarget "Financial Management" */;
+			buildPhases = (
+				79A7D6032ECCD74D0036062D /* Sources */,
+				79A7D6042ECCD74D0036062D /* Frameworks */,
+				79A7D6052ECCD74D0036062D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				79A7D6092ECCD74D0036062D /* Financial Management */,
+			);
+			name = "Financial Management";
+			packageProductDependencies = (
+				793FCD822ECD041A00D5B562 /* FirebaseAnalytics */,
+				793FCD842ECD041A00D5B562 /* FirebaseAuth */,
+				793FCD862ECD041A00D5B562 /* FirebaseCore */,
+				793FCD882ECD041A00D5B562 /* FirebaseDatabase */,
+				793FCD8A2ECD041A00D5B562 /* FirebaseFirestore */,
+				793FCD8C2ECD041A00D5B562 /* FirebaseStorage */,
+				793FCD8E2ECD041A00D5B562 /* FirebaseStorageCombine-Community */,
+				793FCDC72ECD04B800D5B562 /* DGCharts */,
+				793FCDC92ECD04B800D5B562 /* DGChartsDynamic */,
+				793FCDCC2ECD056C00D5B562 /* IQKeyboardManagerSwift */,
+			);
+			productName = "Financial Management";
+			productReference = 79A7D6072ECCD74D0036062D /* Financial Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79A7D61C2ECCD74F0036062D /* Financial ManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A7D6352ECCD74F0036062D /* Build configuration list for PBXNativeTarget "Financial ManagementTests" */;
+			buildPhases = (
+				79A7D6192ECCD74F0036062D /* Sources */,
+				79A7D61A2ECCD74F0036062D /* Frameworks */,
+				79A7D61B2ECCD74F0036062D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A7D61F2ECCD74F0036062D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79A7D6202ECCD74F0036062D /* Financial ManagementTests */,
+			);
+			name = "Financial ManagementTests";
+			packageProductDependencies = (
+			);
+			productName = "Financial ManagementTests";
+			productReference = 79A7D61D2ECCD74F0036062D /* Financial ManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A7D6262ECCD74F0036062D /* Financial ManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A7D6382ECCD74F0036062D /* Build configuration list for PBXNativeTarget "Financial ManagementUITests" */;
+			buildPhases = (
+				79A7D6232ECCD74F0036062D /* Sources */,
+				79A7D6242ECCD74F0036062D /* Frameworks */,
+				79A7D6252ECCD74F0036062D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A7D6292ECCD74F0036062D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79A7D62A2ECCD74F0036062D /* Financial ManagementUITests */,
+			);
+			name = "Financial ManagementUITests";
+			packageProductDependencies = (
+			);
+			productName = "Financial ManagementUITests";
+			productReference = 79A7D6272ECCD74F0036062D /* Financial ManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A7D5FF2ECCD74D0036062D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					79A7D6062ECCD74D0036062D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					79A7D61C2ECCD74F0036062D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 79A7D6062ECCD74D0036062D;
+					};
+					79A7D6262ECCD74F0036062D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 79A7D6062ECCD74D0036062D;
+					};
+				};
+			};
+			buildConfigurationList = 79A7D6022ECCD74D0036062D /* Build configuration list for PBXProject "Financial Management" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A7D5FE2ECCD74D0036062D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				793FCDC62ECD04B800D5B562 /* XCRemoteSwiftPackageReference "Charts" */,
+				793FCDCB2ECD056C00D5B562 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 79A7D6082ECCD74D0036062D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A7D6062ECCD74D0036062D /* Financial Management */,
+				79A7D61C2ECCD74F0036062D /* Financial ManagementTests */,
+				79A7D6262ECCD74F0036062D /* Financial ManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A7D6052ECCD74D0036062D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A7D61B2ECCD74F0036062D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A7D6252ECCD74F0036062D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A7D6032ECCD74D0036062D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A7D6192ECCD74F0036062D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A7D6232ECCD74F0036062D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A7D61F2ECCD74F0036062D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A7D6062ECCD74D0036062D /* Financial Management */;
+			targetProxy = 79A7D61E2ECCD74F0036062D /* PBXContainerItemProxy */;
+		};
+		79A7D6292ECCD74F0036062D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A7D6062ECCD74D0036062D /* Financial Management */;
+			targetProxy = 79A7D6282ECCD74F0036062D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79A7D6312ECCD74F0036062D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMU362YM9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Financial Management/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xunu.Financial-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A7D6322ECCD74F0036062D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMU362YM9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Financial Management/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xunu.Financial-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A7D6332ECCD74F0036062D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HMU362YM9L;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79A7D6342ECCD74F0036062D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HMU362YM9L;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A7D6362ECCD74F0036062D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMU362YM9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xunu.Financial-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Financial Management.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Financial Management";
+			};
+			name = Debug;
+		};
+		79A7D6372ECCD74F0036062D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMU362YM9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xunu.Financial-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Financial Management.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Financial Management";
+			};
+			name = Release;
+		};
+		79A7D6392ECCD74F0036062D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMU362YM9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xunu.Financial-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Financial Management";
+			};
+			name = Debug;
+		};
+		79A7D63A2ECCD74F0036062D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMU362YM9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xunu.Financial-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Financial Management";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A7D6022ECCD74D0036062D /* Build configuration list for PBXProject "Financial Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A7D6332ECCD74F0036062D /* Debug */,
+				79A7D6342ECCD74F0036062D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A7D6302ECCD74F0036062D /* Build configuration list for PBXNativeTarget "Financial Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A7D6312ECCD74F0036062D /* Debug */,
+				79A7D6322ECCD74F0036062D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A7D6352ECCD74F0036062D /* Build configuration list for PBXNativeTarget "Financial ManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A7D6362ECCD74F0036062D /* Debug */,
+				79A7D6372ECCD74F0036062D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A7D6382ECCD74F0036062D /* Build configuration list for PBXNativeTarget "Financial ManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A7D6392ECCD74F0036062D /* Debug */,
+				79A7D63A2ECCD74F0036062D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		793FCDC62ECD04B800D5B562 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		793FCDCB2ECD056C00D5B562 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		793FCD822ECD041A00D5B562 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		793FCD842ECD041A00D5B562 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		793FCD862ECD041A00D5B562 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		793FCD882ECD041A00D5B562 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		793FCD8A2ECD041A00D5B562 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		793FCD8C2ECD041A00D5B562 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		793FCD8E2ECD041A00D5B562 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		793FCDC72ECD04B800D5B562 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCDC62ECD04B800D5B562 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		793FCDC92ECD04B800D5B562 /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCDC62ECD04B800D5B562 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGChartsDynamic;
+		};
+		793FCDCC2ECD056C00D5B562 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 793FCDCB2ECD056C00D5B562 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 79A7D5FF2ECCD74D0036062D /* Project object */;
+}

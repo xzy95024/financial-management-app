@@ -1,0 +1,24 @@
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+
+# Firebase private keys
+GoogleService-Info.plist
+
+# macOS junk
+.DS_Store
+
+# Build output
+*.ipa
+*.app
