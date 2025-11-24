@@ -95,7 +95,7 @@ class CategoryStatisticCell: UITableViewCell {
     
     func configure(with categoryStatistic: CategoryStatistic) {
         categoryNameLabel.text = categoryStatistic.categoryName
-        amountLabel.text = String(format: "¥%.2f", categoryStatistic.amount)
+        amountLabel.text = String(format: "$%.2f", categoryStatistic.amount)
         percentageLabel.text = String(format: "%.1f%%", categoryStatistic.percentage)
         
         // Set progress bar

@@ -538,14 +538,14 @@ class MerchantDetailViewController: UIViewController {
         
         totalSpentView.configure(
             title: "Total Spent",
-            value: String(format: "¥%.2f", merchant.stats.totalSpending),
+            value: String(format: "$%.2f", merchant.stats.totalSpending),
             color: .systemGreen
         )
         
         let avgSpent = merchant.stats.visitCount > 0 ? merchant.stats.totalSpending / Double(merchant.stats.visitCount) : 0
         avgSpentView.configure(
             title: "Avg per Visit",
-            value: String(format: "¥%.2f", avgSpent),
+            value: String(format: "$%.2f", avgSpent),
             color: .systemOrange
         )
         

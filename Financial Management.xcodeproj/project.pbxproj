@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791EE2832ED503A500C6674B /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 791EE2822ED503A500C6674B /* DGCharts */; };
 		793FCD832ECD041A00D5B562 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD822ECD041A00D5B562 /* FirebaseAnalytics */; };
 		793FCD852ECD041A00D5B562 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD842ECD041A00D5B562 /* FirebaseAuth */; };
 		793FCD872ECD041A00D5B562 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD862ECD041A00D5B562 /* FirebaseCore */; };
@@ -14,8 +15,6 @@
 		793FCD8B2ECD041A00D5B562 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD8A2ECD041A00D5B562 /* FirebaseFirestore */; };
 		793FCD8D2ECD041A00D5B562 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD8C2ECD041A00D5B562 /* FirebaseStorage */; };
 		793FCD8F2ECD041A00D5B562 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCD8E2ECD041A00D5B562 /* FirebaseStorageCombine-Community */; };
-		793FCDC82ECD04B800D5B562 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCDC72ECD04B800D5B562 /* DGCharts */; };
-		793FCDCA2ECD04B800D5B562 /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCDC92ECD04B800D5B562 /* DGChartsDynamic */; };
 		793FCDCD2ECD056C00D5B562 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 793FCDCC2ECD056C00D5B562 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
@@ -42,9 +41,22 @@
 		79A7D6272ECCD74F0036062D /* Financial ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		793FCDCE2ED4FD4200D5B562 /* Exceptions for "Financial Management" folder in "Financial Management" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 79A7D6062ECCD74D0036062D /* Financial Management */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		79A7D6092ECCD74D0036062D /* Financial Management */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				793FCDCE2ED4FD4200D5B562 /* Exceptions for "Financial Management" folder in "Financial Management" target */,
+			);
 			path = "Financial Management";
 			sourceTree = "<group>";
 		};
@@ -65,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793FCDC82ECD04B800D5B562 /* DGCharts in Frameworks */,
 				793FCD832ECD041A00D5B562 /* FirebaseAnalytics in Frameworks */,
 				793FCD8F2ECD041A00D5B562 /* FirebaseStorageCombine-Community in Frameworks */,
 				793FCD872ECD041A00D5B562 /* FirebaseCore in Frameworks */,
@@ -73,7 +84,7 @@
 				793FCDCD2ECD056C00D5B562 /* IQKeyboardManagerSwift in Frameworks */,
 				793FCD8B2ECD041A00D5B562 /* FirebaseFirestore in Frameworks */,
 				793FCD852ECD041A00D5B562 /* FirebaseAuth in Frameworks */,
-				793FCDCA2ECD04B800D5B562 /* DGChartsDynamic in Frameworks */,
+				791EE2832ED503A500C6674B /* DGCharts in Frameworks */,
 				793FCD8D2ECD041A00D5B562 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +153,8 @@
 				793FCD8A2ECD041A00D5B562 /* FirebaseFirestore */,
 				793FCD8C2ECD041A00D5B562 /* FirebaseStorage */,
 				793FCD8E2ECD041A00D5B562 /* FirebaseStorageCombine-Community */,
-				793FCDC72ECD04B800D5B562 /* DGCharts */,
-				793FCDC92ECD04B800D5B562 /* DGChartsDynamic */,
 				793FCDCC2ECD056C00D5B562 /* IQKeyboardManagerSwift */,
+				791EE2822ED503A500C6674B /* DGCharts */,
 			);
 			productName = "Financial Management";
 			productReference = 79A7D6072ECCD74D0036062D /* Financial Management.app */;
@@ -230,8 +240,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				793FCDC62ECD04B800D5B562 /* XCRemoteSwiftPackageReference "Charts" */,
 				793FCDCB2ECD056C00D5B562 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				791EE2812ED503A500C6674B /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 79A7D6082ECCD74D0036062D /* Products */;
@@ -598,20 +608,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		791EE2812ED503A500C6674B /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 		793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 12.6.0;
-			};
-		};
-		793FCDC62ECD04B800D5B562 /* XCRemoteSwiftPackageReference "Charts" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danielgindi/Charts.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.0;
 			};
 		};
 		793FCDCB2ECD056C00D5B562 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
@@ -625,6 +635,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		791EE2822ED503A500C6674B /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 791EE2812ED503A500C6674B /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
 		793FCD822ECD041A00D5B562 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -659,16 +674,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 793FCD812ECD041A00D5B562 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseStorageCombine-Community";
-		};
-		793FCDC72ECD04B800D5B562 /* DGCharts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 793FCDC62ECD04B800D5B562 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = DGCharts;
-		};
-		793FCDC92ECD04B800D5B562 /* DGChartsDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 793FCDC62ECD04B800D5B562 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = DGChartsDynamic;
 		};
 		793FCDCC2ECD056C00D5B562 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;

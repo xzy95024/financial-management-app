@@ -89,7 +89,7 @@ class StatisticsViewController: UIViewController, ChartViewDelegate {
         contentView.addSubview(overviewCardView)
         
         // Total income
-        totalIncomeLabel.text = "Total Income\n¥0.00"
+        totalIncomeLabel.text = "Total Income\n$0.00"
         totalIncomeLabel.numberOfLines = 2
         totalIncomeLabel.textAlignment = .center
         totalIncomeLabel.font = UIFont.systemFont(ofSize: 16, weight: .medium)
@@ -97,7 +97,7 @@ class StatisticsViewController: UIViewController, ChartViewDelegate {
         overviewCardView.addSubview(totalIncomeLabel)
         
         // Total expense
-        totalExpenseLabel.text = "Total Expense\n¥0.00"
+        totalExpenseLabel.text = "Total Expense\n$0.00"
         totalExpenseLabel.numberOfLines = 2
         totalExpenseLabel.textAlignment = .center
         totalExpenseLabel.font = UIFont.systemFont(ofSize: 16, weight: .medium)
@@ -105,7 +105,7 @@ class StatisticsViewController: UIViewController, ChartViewDelegate {
         overviewCardView.addSubview(totalExpenseLabel)
         
         // Net income
-        netIncomeLabel.text = "Net Income\n¥0.00"
+        netIncomeLabel.text = "Net Income\n$0.00"
         netIncomeLabel.numberOfLines = 2
         netIncomeLabel.textAlignment = .center
         netIncomeLabel.font = UIFont.systemFont(ofSize: 16, weight: .medium)
@@ -366,17 +366,17 @@ class StatisticsViewController: UIViewController, ChartViewDelegate {
     
     private func updateUI(with statistics: TransactionStatistics?) {
         guard let statistics = statistics else {
-            totalIncomeLabel.text = "Total Income\n¥0.00"
-            totalExpenseLabel.text = "Total Expense\n¥0.00"
-            netIncomeLabel.text = "Net Income\n¥0.00"
+            totalIncomeLabel.text = "Total Income\n$0.00"
+            totalExpenseLabel.text = "Total Expense\n$0.00"
+            netIncomeLabel.text = "Net Income\n$0.00"
             categoryTableView.reloadData()
             return
         }
         
         // Overview card
-        totalIncomeLabel.text = String(format: "Total Income\n¥%.2f", statistics.totalIncome)
-        totalExpenseLabel.text = String(format: "Total Expense\n¥%.2f", statistics.totalExpense)
-        netIncomeLabel.text = String(format: "Net Income\n¥%.2f", statistics.netAmount)
+        totalIncomeLabel.text = String(format: "Total Income\n$%.2f", statistics.totalIncome)
+        totalExpenseLabel.text = String(format: "Total Expense\n$%.2f", statistics.totalExpense)
+        netIncomeLabel.text = String(format: "Net Income\n$%.2f", statistics.netAmount)
         
         // Category breakdown
         categoryTableView.reloadData()

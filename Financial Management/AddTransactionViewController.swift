@@ -150,7 +150,7 @@ class AddTransactionViewController: UIViewController {
         contentView.addSubview(amountContainer)
         
         currencyLabel.translatesAutoresizingMaskIntoConstraints = false
-        currencyLabel.text = "¥"
+        currencyLabel.text = "$"
         currencyLabel.font = UIFont.systemFont(ofSize: 32, weight: .medium)
         currencyLabel.textColor = UIColor.systemBlue
         amountContainer.addSubview(currencyLabel)

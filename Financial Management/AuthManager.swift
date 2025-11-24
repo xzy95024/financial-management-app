@@ -19,7 +19,7 @@ struct User {
     init(uid: String, email: String, displayName: String? = nil, createdAt: Date = Date()) {
         self.uid = uid
         self.email = email
-        this.displayName = displayName
+        self.displayName = displayName
         self.createdAt = createdAt
     }
     

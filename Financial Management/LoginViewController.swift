@@ -77,14 +77,14 @@ class LoginViewController: UIViewController {
         contentView.addSubview(logoImageView)
         
         // Title
-        titleLabel.text = "Financial Butler"
+        titleLabel.text = "VendorLofg"
         titleLabel.font = UIFont.systemFont(ofSize: 32, weight: .bold)
         titleLabel.textColor = .white
         titleLabel.textAlignment = .center
         contentView.addSubview(titleLabel)
         
         // Subtitle
-        subtitleLabel.text = "Smart budgeting, easy money management"
+        subtitleLabel.text = "Smart budgeting, personalized Merchant Insights"
         subtitleLabel.font = UIFont.systemFont(ofSize: 16, weight: .medium)
         subtitleLabel.textColor = UIColor.white.withAlphaComponent(0.8)
         subtitleLabel.textAlignment = .center

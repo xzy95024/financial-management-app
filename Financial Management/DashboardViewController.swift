@@ -225,18 +225,18 @@ class DashboardViewController: UIViewController {
         balanceCardView.layer.shadowRadius = 8
         
         // Balance label
-        balanceLabel.text = "¥ 0.00"
+        balanceLabel.text = "$ 0.00"
         balanceLabel.font = UIFont.boldSystemFont(ofSize: 32)
         balanceLabel.textColor = UIColor.white
         balanceLabel.textAlignment = .center
         
         // Income label
-        incomeLabel.text = "This Month Income: ¥ 0.00"
+        incomeLabel.text = "This Month Income: $ 0.00"
         incomeLabel.font = UIFont.systemFont(ofSize: 16)
         incomeLabel.textColor = UIColor.white.withAlphaComponent(0.9)
         
         // Expense label
-        expenseLabel.text = "This Month Expense: ¥ 0.00"
+        expenseLabel.text = "This Month Expense: $ 0.00"
         expenseLabel.font = UIFont.systemFont(ofSize: 16)
         expenseLabel.textColor = UIColor.white.withAlphaComponent(0.9)
         
@@ -481,9 +481,9 @@ class DashboardViewController: UIViewController {
         let totalExpense = statistics?.totalExpense ?? 0
         let balance = totalIncome - totalExpense
         
-        balanceLabel.text = String(format: "¥%.2f", balance)
-        incomeLabel.text = String(format: "Income ¥%.2f", totalIncome)
-        expenseLabel.text = String(format: "Expense ¥%.2f", totalExpense)
+        balanceLabel.text = String(format: "$%.2f", balance)
+        incomeLabel.text = String(format: "Income $%.2f", totalIncome)
+        expenseLabel.text = String(format: "Expense $%.2f", totalExpense)
         
         // Set color based on balance
         if balance >= 0 {
