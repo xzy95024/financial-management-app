@@ -25,6 +25,7 @@ class CategoryStatisticCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - UI Setup
     private func setupUI() {
         backgroundColor = UIColor.clear
         selectionStyle = .none
@@ -32,6 +33,7 @@ class CategoryStatisticCell: UITableViewCell {
         // Category icon
         categoryIconView.backgroundColor = UIColor.systemBlue
         categoryIconView.layer.cornerRadius = 15
+        categoryIconView.clipsToBounds = true
         contentView.addSubview(categoryIconView)
         
         // Category name
@@ -54,9 +56,12 @@ class CategoryStatisticCell: UITableViewCell {
         // Progress bar
         progressView.progressTintColor = UIColor.systemBlue
         progressView.trackTintColor = UIColor.systemGray5
+        progressView.layer.cornerRadius = 2
+        progressView.clipsToBounds = true
         contentView.addSubview(progressView)
     }
     
+    // MARK: - Constraints
     private func setupConstraints() {
         categoryIconView.translatesAutoresizingMaskIntoConstraints = false
         categoryNameLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -65,7 +70,7 @@ class CategoryStatisticCell: UITableViewCell {
         progressView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            // Category icon
+            // Icon
             categoryIconView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
             categoryIconView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
             categoryIconView.widthAnchor.constraint(equalToConstant: 30),
@@ -93,15 +98,19 @@ class CategoryStatisticCell: UITableViewCell {
         ])
     }
     
+    // MARK: - Configure Cell
     func configure(with categoryStatistic: CategoryStatistic) {
         categoryNameLabel.text = categoryStatistic.categoryName
         amountLabel.text = String(format: "$%.2f", categoryStatistic.amount)
-        percentageLabel.text = String(format: "%.1f%%", categoryStatistic.percentage)
         
-        // Set progress bar
-        progressView.progress = Float(categoryStatistic.percentage / 100.0)
+        // UI expects 0–100%, data is 0–1
+        let percentValue = categoryStatistic.percentage * 100
+        percentageLabel.text = String(format: "%.1f%%", percentValue)
         
-        // Set colors based on category type
+        // Progress bar uses 0–1 directly
+        progressView.progress = Float(categoryStatistic.percentage)
+        
+        // Coloring by income/expense type
         switch categoryStatistic.type {
         case .income:
             categoryIconView.backgroundColor = UIColor.systemGreen

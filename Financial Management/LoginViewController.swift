@@ -77,7 +77,7 @@ class LoginViewController: UIViewController {
         contentView.addSubview(logoImageView)
         
         // Title
-        titleLabel.text = "VendorLofg"
+        titleLabel.text = "VendorLog"
         titleLabel.font = UIFont.systemFont(ofSize: 32, weight: .bold)
         titleLabel.textColor = .white
         titleLabel.textAlignment = .center
